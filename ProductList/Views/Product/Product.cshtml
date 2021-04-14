@@ -1,0 +1,54 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> listes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/Content/product.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form method="post" action="@Url.Action("Product", "Product")">
+        <div class="container">
+            <h2> Products List</h2>
+            <table>
+                <tr>
+                    <td><b>Id</b></td>
+                    <td><b>Reference</b></td>
+                    <td><b>Designation</b></td>
+                    <td><b>Prix unitaire</b></td>
+                    <td><b>Date de creation</b></td>
+                    <td><b>Date de peremption</b></td>
+                    <td><b>Description</b></td>
+                    <td><b>Status</b></td>
+                    <td><b>Quantite en stock</b></td>
+                    <td><b>Id Categorie</b></td>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>TA01</td>
+                    <td>Lunette</td>
+                    <td>80000</td>
+                    <td>2018-03-07</td>
+                    <td>2021-02-06</td>
+                    <td>trois ans de validité</td>
+                    <td>1</td>
+                    <td>1000000</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+        <script src="~/Scripts/bootstrap.min.js"></script>
+        <script src="~/Scripts/jquery-3.5.1.min.js"></script>
+        @*<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>*@
+    </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CreateProduct.MainPage">
+
+    <StackLayout Padding="10dp" Spacing="10dp">
+        <Label Text="Welcome TAKILASI to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        
+        <Entry Placeholder="Reference"
+               Margin="10"/>
+        <Entry Placeholder="Designation"
+               Margin="20"/>
+        <Entry Placeholder="Prix unitaire"
+               Margin="30"/>
+        <Entry Placeholder="Date de creation"
+               Margin="10"/>
+        <Entry Placeholder="Date de peremption"
+               Margin="10"/>
+        <Entry Placeholder="Description"
+               Margin="10"/>
+        <Entry Placeholder="Status"
+               Margin="10"/>
+        <Entry Placeholder="Quantite en stock"
+               Margin="10"/>
+        <Entry Placeholder="Id Categorie"
+               Margin="10"/>
+    </StackLayout>
+
+</ContentPage>
